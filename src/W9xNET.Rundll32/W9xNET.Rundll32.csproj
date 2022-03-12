@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Company>$(Authors)</Company>
+	<Authors>Ahmad N. Chatila</Authors>
+	<Description>A simulated "rundll32.dll" file.</Description>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\W9xNET.User32\W9xNET.User32.csproj" />
+  </ItemGroup>
+
+</Project>

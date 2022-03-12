@@ -1,0 +1,117 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="W9xNET.User32.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ActiveTitleBar_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="ActiveTitleBar_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Navy</Value>
+    </Setting>
+    <Setting Name="ActiveTitleBar_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="ActiveWindowBorder_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ActiveWindowBorder_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="ApplicationBackground_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="CaptionButtons_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="Desktop_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Teal</Value>
+    </Setting>
+    <Setting Name="Icon_ItemSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">32, 32</Value>
+    </Setting>
+    <Setting Name="Icon_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="IconSpacingHorizontal_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">43</Value>
+    </Setting>
+    <Setting Name="IconSpacingVertical_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">43</Value>
+    </Setting>
+    <Setting Name="InactiveTitleBar_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="InactiveTitleBar_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="InactiveTitleBar_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="InactiveTitleBar_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="InactiveWindowBorder_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="InactiveWindowBorder_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="Menu_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="Menu_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="Menu_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="Menu_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="MessageBox_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="MessageBox_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="PaletteTitle_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="PaletteTitle_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="ScrollBar_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="SelectedItems_ItemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="SelectedItems_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Navy</Value>
+    </Setting>
+    <Setting Name="SelectedItems_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="SelectedItems_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="ToolTip_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 255, 225</Value>
+    </Setting>
+    <Setting Name="ToolTip_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ToolTip_Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 8pt</Value>
+    </Setting>
+    <Setting Name="ThreeDObjects_ItemColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="ThreeDObjects_FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="IsClearType" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

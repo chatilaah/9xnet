@@ -1,0 +1,115 @@
+﻿namespace LegalMitigation.Utils
+{
+    /// <summary>
+    /// Microsoft(R) Windows(R) 98 sources
+    /// </summary>
+    internal sealed class WinSource98 : WinSource
+    {
+        public WinSource98(string path = "") : base(path, Types.WinSourceType.Win98)
+        {
+            // do nothing.
+        }
+
+        protected override string RelativeDirectory => "win98";
+
+        /// <summary>
+        /// The expected Windows 98 installation files.
+        /// </summary>
+        protected override string[] InstallationFiles => new string[] {
+            $"{RelativeDirectory}\\BASE4.CAB",
+            $"{RelativeDirectory}\\BASE5.CAB",
+            $"{RelativeDirectory}\\BASE6.CAB",
+            $"{RelativeDirectory}\\CATALOG3.CAB",
+            $"{RelativeDirectory}\\CHL99.CAB",
+            $"{RelativeDirectory}\\DELTEMP.COM",
+            $"{RelativeDirectory}\\DOSSETUP.BIN",
+            $"{RelativeDirectory}\\DRIVER11.CAB",
+            $"{RelativeDirectory}\\DRIVER12.CAB",
+            $"{RelativeDirectory}\\DRIVER13.CAB",
+            $"{RelativeDirectory}\\DRIVER14.CAB",
+            $"{RelativeDirectory}\\DRIVER15.CAB",
+            $"{RelativeDirectory}\\DRIVER16.CAB",
+            $"{RelativeDirectory}\\DRIVER17.CAB",
+            $"{RelativeDirectory}\\DRIVER18.CAB",
+            $"{RelativeDirectory}\\DRIVER19.CAB",
+            $"{RelativeDirectory}\\DRIVER20.CAB",
+            $"{RelativeDirectory}\\DRIVER21.CAB",
+            $"{RelativeDirectory}\\EXTRACT.EXE",
+            $"{RelativeDirectory}\\FORMAT.COM",
+            $"{RelativeDirectory}\\MINI.CAB",
+            $"{RelativeDirectory}\\NET10.CAB",
+            $"{RelativeDirectory}\\NET7.CAB",
+            $"{RelativeDirectory}\\NET8.CAB",
+            $"{RelativeDirectory}\\NET9.CAB",
+            $"{RelativeDirectory}\\OEMSETUP.BIN",
+            $"{RelativeDirectory}\\OEMSETUP.EXE",
+            $"{RelativeDirectory}\\PRECOPY1.CAB",
+            $"{RelativeDirectory}\\PRECOPY2.CAB",
+            $"{RelativeDirectory}\\README.PWA",
+            $"{RelativeDirectory}\\SAVE32.COM",
+            $"{RelativeDirectory}\\SCANDISK.EXE",
+            $"{RelativeDirectory}\\SCANDISK.PIF",
+            $"{RelativeDirectory}\\SCANPROG.EXE",
+            $"{RelativeDirectory}\\SCANREG.EXE",
+            $"{RelativeDirectory}\\SETUP.EXE",
+            $"{RelativeDirectory}\\SETUP.TXT",
+            $"{RelativeDirectory}\\SETUP0.WAV",
+            $"{RelativeDirectory}\\SETUP1.WAV",
+            $"{RelativeDirectory}\\SETUP2.WAV",
+            $"{RelativeDirectory}\\SMARTDRV.EXE",
+            $"{RelativeDirectory}\\SUBACK.BIN",
+            $"{RelativeDirectory}\\SUHELPER.BIN",
+            $"{RelativeDirectory}\\W98SETUP.BIN",
+            $"{RelativeDirectory}\\WB16OFF.EXE",
+            $"{RelativeDirectory}\\WIN98_22.CAB",
+            $"{RelativeDirectory}\\WIN98_23.CAB",
+            $"{RelativeDirectory}\\WIN98_24.CAB",
+            $"{RelativeDirectory}\\WIN98_25.CAB",
+            $"{RelativeDirectory}\\WIN98_26.CAB",
+            $"{RelativeDirectory}\\WIN98_27.CAB",
+            $"{RelativeDirectory}\\WIN98_28.CAB",
+            $"{RelativeDirectory}\\WIN98_29.CAB",
+            $"{RelativeDirectory}\\WIN98_30.CAB",
+            $"{RelativeDirectory}\\WIN98_31.CAB",
+            $"{RelativeDirectory}\\WIN98_32.CAB",
+            $"{RelativeDirectory}\\WIN98_33.CAB",
+            $"{RelativeDirectory}\\WIN98_34.CAB",
+            $"{RelativeDirectory}\\WIN98_35.CAB",
+            $"{RelativeDirectory}\\WIN98_36.CAB",
+            $"{RelativeDirectory}\\WIN98_37.CAB",
+            $"{RelativeDirectory}\\WIN98_38.CAB",
+            $"{RelativeDirectory}\\WIN98_39.CAB",
+            $"{RelativeDirectory}\\WIN98_40.CAB",
+            $"{RelativeDirectory}\\WIN98_41.CAB",
+            $"{RelativeDirectory}\\WIN98_42.CAB",
+            $"{RelativeDirectory}\\WIN98_43.CAB",
+            $"{RelativeDirectory}\\WIN98_44.CAB",
+            $"{RelativeDirectory}\\WIN98_45.CAB",
+            $"{RelativeDirectory}\\WIN98_46.CAB",
+            $"{RelativeDirectory}\\WIN98_47.CAB",
+            $"{RelativeDirectory}\\WIN98_48.CAB",
+            $"{RelativeDirectory}\\WIN98_49.CAB",
+            $"{RelativeDirectory}\\WIN98_50.CAB",
+            $"{RelativeDirectory}\\WIN98_51.CAB",
+            $"{RelativeDirectory}\\WIN98_52.CAB",
+            $"{RelativeDirectory}\\WIN98_53.CAB",
+            $"{RelativeDirectory}\\WIN98_54.CAB",
+            $"{RelativeDirectory}\\WIN98_55.CAB",
+            $"{RelativeDirectory}\\WIN98_56.CAB",
+            $"{RelativeDirectory}\\WIN98_57.CAB",
+            $"{RelativeDirectory}\\WIN98_58.CAB",
+            $"{RelativeDirectory}\\WIN98_59.CAB",
+            $"{RelativeDirectory}\\WIN98_60.CAB",
+            $"{RelativeDirectory}\\WIN98_61.CAB",
+            $"{RelativeDirectory}\\WIN98_62.CAB",
+            $"{RelativeDirectory}\\WIN98_63.CAB",
+            $"{RelativeDirectory}\\WIN98_64.CAB",
+            $"{RelativeDirectory}\\WIN98_65.CAB",
+            $"{RelativeDirectory}\\WIN98_66.CAB",
+            $"{RelativeDirectory}\\WIN98_67.CAB",
+            $"{RelativeDirectory}\\WIN98_68.CAB",
+            $"{RelativeDirectory}\\WIN98_69.CAB",
+            $"{RelativeDirectory}\\XMSMMGR.EXE"
+        };
+    }
+}

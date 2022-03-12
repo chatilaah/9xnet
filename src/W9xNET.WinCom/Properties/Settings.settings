@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="W9xNET.WinCom.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BugCheckBackColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">0, 0, 168</Value>
+    </Setting>
+    <Setting Name="BugCheckTextColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">ButtonFace</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

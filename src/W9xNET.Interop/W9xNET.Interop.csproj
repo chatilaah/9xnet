@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Company>$(Authors)</Company>
+	<Authors>Ahmad N. Chatila</Authors>
+	<Description>Win32 interoperability library</Description>
+	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>  
+  </PropertyGroup>
+
+</Project>

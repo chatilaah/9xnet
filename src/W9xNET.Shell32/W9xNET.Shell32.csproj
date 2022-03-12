@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Company>$(Authors)</Company>
+	<Authors>Ahmad N. Chatila</Authors>
+	<Description>A simulated "shell32.dll" file.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LegalMitigation\LegalMitigation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\FrmProgramWarning.cs" />
+    <Compile Update="Forms\FrmControlPanelSetup.cs" />
+    <Compile Update="Forms\FrmIncompatibleProgram.cs" />
+    <Compile Update="Forms\FrmTools.cs" />
+    <Compile Update="Forms\FrmGeneral7.cs" />
+    <Compile Update="Forms\FrmBrowseForFolder.cs" />
+    <Compile Update="Forms\FrmDeletePort.cs" />
+    <Compile Update="Forms\FrmAddPort.cs" />
+    <Compile Update="Forms\FrmSpoolSettings.cs" />
+    <Compile Update="Forms\FrmDetails.cs" />
+    <Compile Update="Forms\FrmGeneral6.cs" />
+    <Compile Update="Forms\FrmOpenWith2.cs" />
+    <Compile Update="Forms\FrmComputerName.cs" />
+    <Compile Update="Forms\FrmDateModified.cs" />
+    <Compile Update="Forms\FrmAdvanced.cs" />
+    <Compile Update="Forms\FrmNameAndLocation.cs" />
+    <Compile Update="Forms\FrmShutdown.cs" />
+    <Compile Update="Forms\FrmOpenWith.cs" />
+    <Compile Update="Forms\FrmFindFile.cs" />
+    <Compile Update="Forms\FrmConfirmFileRename2.cs" />
+    <Compile Update="Forms\FrmChangeIcon.cs" />
+    <Compile Update="Forms\FrmProgramNotFound.cs" />
+    <Compile Update="Forms\FrmGeneral5.cs" />
+    <Compile Update="Forms\FrmGeneral4.cs" />
+    <Compile Update="Forms\FrmGeneral3.cs" />
+    <Compile Update="Forms\FrmGeneral2.cs" />
+    <Compile Update="Forms\FrmGlobal.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

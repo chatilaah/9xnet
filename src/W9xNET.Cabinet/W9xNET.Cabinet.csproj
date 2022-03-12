@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Company>$(Authors)</Company>
+	<Authors>Ahmad N. Chatila</Authors>
+	<Description>Wrapper to the Cabinet API from Win32</Description>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\W9xNET.Interop\W9xNET.Interop.csproj" />
+  </ItemGroup>
+
+</Project>
