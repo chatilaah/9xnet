@@ -177,7 +177,7 @@ namespace W9xNET.User32.Controls
         /// <summary>
         /// Re-aligns the desktop icons to their default locations.
         /// </summary>
-        public void ArrangeIcons()
+        public void LineupIcons()
         {
             const int padTop = 2;
             const int padLeft = 2;

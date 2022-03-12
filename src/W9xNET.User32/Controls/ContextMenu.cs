@@ -10,6 +10,8 @@ namespace W9xNET.User32.Controls
 
         ContextMenu? _activeMenu;
 
+        public bool IsInverted { get; internal set; } = false;
+
         /// <summary>
         /// Items that contain the menu items to be displayed when visible
         /// </summary>
@@ -304,13 +306,15 @@ namespace W9xNET.User32.Controls
             int y = e.Y;
 
             bool hasDesc = descendingCtrl is ContextMenu;
-            
+            self.IsInverted = false;
+
             if (e.X + self.Width > clientSize.Width)
             {
                 x = e.X - self.Width;  //clientSize.Width - self.Width;
                 if (hasDesc)
                 {
                     x = (descendingCtrl!.Left - self.Width) + 3;
+                    self.IsInverted = true;
                 }
             }
 

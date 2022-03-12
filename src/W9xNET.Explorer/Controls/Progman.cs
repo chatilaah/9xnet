@@ -19,7 +19,19 @@ namespace W9xNET.Explorer.Controls
 
             switch (Convert.ToInt32(cmi.Name))
             {
-
+                case 0: // Properties
+                    break;
+                case 28721: // Auto arrange
+                    break;
+                case 28722: // Line up Icons
+                    LineupIcons();
+                    break;
+                case 28698: // Paste
+                    break;
+                case 28700: // Paste Shortcut
+                    break;
+                case 28699: // Undo
+                    break;
             }
         }
 
@@ -51,14 +63,14 @@ namespace W9xNET.Explorer.Controls
                 //new IconElement(this, shell32Rc.IconAt(3), "Online Services")
             });
 
-            ArrangeIcons();
+            LineupIcons();
         }
 
         private void InitContextMenu()
         {
-            //TODO: Load the context menu from the real shell32.dll
             var cm1 = new ContextMenu(false, 9, W9xNET.Shell32.Program.Instance.RC);
             var cm2 = new ContextMenu(false, 12, W9xNET.Shell32.Program.Instance.RC);
+            var cm3 = new ContextMenu(false, 13, W9xNET.Shell32.Program.Instance.RC);
 
             ContextMenu = new();
 
@@ -74,12 +86,18 @@ namespace W9xNET.Explorer.Controls
                 ContextMenu.Items.Add(i);
             }
 
-            ContextMenu.Items.AddSeparator();
+            ContextMenuItem cmi = ContextMenu.Items[0].Items[0];
+            ContextMenu.Items[0].Items.RemoveAt(0);
 
-            foreach (var i in cm2.Items)
+            foreach (var i in cm3.Items[1].Items)
             {
-                Debug.WriteLine(i.Text);
+                ContextMenu.Items[0].Items.Add(i.Text);
             }
+
+            ContextMenu.Items[0].Items.AddSeparator();
+            ContextMenu.Items[0].Items.Add(cmi);
+
+            ContextMenu.Items.AddSeparator();
 
             foreach (var i in cm2.Items[0].Items)
             {
